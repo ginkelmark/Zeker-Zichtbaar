@@ -2,13 +2,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.shadow {
+  -webkit-box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
+  -moz-box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
+  box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
+}
+
 .white-button {
   padding: 0 35px;
   border-radius: 25.5px;
   background-color: white;
-  -webkit-box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
-  -moz-box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
-  box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
 }
 .white-button a {
   color: #0789C1;
@@ -17,9 +20,6 @@ body {
 .red-button {
   border-radius: 25.5px;
   background-color: #E94D4E;
-  -webkit-box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
-  -moz-box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
-  box-shadow: 0px 0px 18px 3px rgba(156, 156, 156, 0.12);
   padding: 13px 25px;
   display: inline-block;
   margin-top: 10px;
@@ -28,6 +28,75 @@ body {
   color: white;
   font-size: 18px;
   font-weight: bold;
+}
+
+.h2-title {
+  font-weight: bold;
+  font-size: 54px;
+  color: #2E2F2F;
+}
+
+#cloud-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cloud-card {
+  background-color: white;
+  height: 550px;
+  margin: 13px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cloud-section-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.cloud-cards-container {
+  display: flex;
+  margin: 15px 0;
+}
+
+.flex-column-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cloud-img {
+  transform: scale(1.25);
+  top: -28px;
+  position: relative;
+}
+
+.card-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.card-body {
+  margin-top: 45px;
+}
+.card-body p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #5E6061;
+  line-height: 2;
+  width: 78%;
+}
+.card-body a {
+  font-weight: bold;
+  font-size: 17px;
+  color: #0789C1;
+}
+
+.fas {
+  color: #0789C1;
 }
 
 /*# sourceMappingURL=global.css.map */

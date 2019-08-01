@@ -38,7 +38,7 @@
                     <li><a href="#">Werken bij</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="white-button"><a href="#">Contact</a></li>
+                    <li class="white-button shadow"><a href="#">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -46,7 +46,7 @@
             <div class="page-header col-lg-6">
                 <h1>Succes hangt in de lucht</h1>
                 <p>Onze ervaring en diepgaande Microsoft Cloud kennis zorgen voor een goed en blijvend resultaat.</p>
-                <div class="red-button"><a href="#">Onze diensten</a></div>
+                <div class="red-button shadow"><a href="#">Onze diensten</a></div>
             </div>
         </div>
     </div>
