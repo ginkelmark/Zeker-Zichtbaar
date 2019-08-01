@@ -1,0 +1,29 @@
+.white {
+  color: white;
+}
+
+.grey {
+  color: #404549;
+}
+
+.red {
+  color: #E63734;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.z-index10 {
+  z-index: 10;
+}
+
+.darker-grey {
+  color: #404549;
+}
+
+.lighter-grey {
+  color: #A7A7A7;
+}
+
+/*# sourceMappingURL=variables.css.map */

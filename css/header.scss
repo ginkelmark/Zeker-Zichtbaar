@@ -1,0 +1,22 @@
+@import "variables";
+
+.header-container {
+  background-image: url("../images/zz-header.jpg");
+  color: white;
+  height: 940px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.page-header {
+  border: none;
+  h1 {
+    font-weight: bold;
+    font-size: 72px;
+  }
+}

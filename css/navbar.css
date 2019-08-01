@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-right > li > a {
+  color: #0789C1;
+}
+.navbar-inverse .navbar-right > li > a:hover {
+  color: #0789C1;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: transparent;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar {
+  overflow: hidden;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-inverse {
+  border: none;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=navbar.css.map */
