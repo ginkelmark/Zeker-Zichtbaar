@@ -4,7 +4,6 @@
     <!--JS-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="<?php echo get_template_directory_uri() . '/js/flickity.min.js'; ?>"></script>
 
     <!--CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -14,7 +13,6 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/global.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/variables.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/navbar.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/flickity.min.css'; ?>">
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
