@@ -4,7 +4,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 li {
@@ -48,12 +47,13 @@ li {
 }
 
 .navbar {
-  overflow: hidden;
+  position: absolute;
   width: 100%;
   z-index: 10;
   background-color: transparent;
   display: flex;
   justify-content: center;
+  padding-top: 21px;
 }
 
 .navbar-inverse {

@@ -1,26 +1,28 @@
 <html>
 <head>
     <title>Zeker Zichtbaar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--JS-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() . '/js/flickity.min.js'; ?>"></script>
 
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/bootstrap.js'; ?>">
-    </script>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/footer.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/header.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/global.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/variables.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/navbar.css'; ?>">
-    <script src="<?php echo get_stylesheet_directory_uri() . '/css/anime.min.js'; ?>"></script>
-
-    <!--Favicon-->
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/logo-w-navbar.png" type="image/gif">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/flickity.min.css'; ?>">
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
-    <!--    Font awesome-->
+
+    <!--Font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -42,11 +44,43 @@
                 </ul>
             </div>
         </nav>
-        <div class="container col-lg-10">
-            <div class="page-header col-lg-6">
-                <h1>Succes hangt in de lucht</h1>
-                <p>Onze ervaring en diepgaande Microsoft Cloud kennis zorgen voor een goed en blijvend resultaat.</p>
-                <div class="red-button shadow"><a href="#">Onze diensten</a></div>
+        <div class="carousel"
+             data-flickity='{ "wrapAround": true, "draggable": false, "autoPlay": 10000, "pauseAutoPlayOnHover": false, "pageDots": false}'>
+            <div style="background-image: url(<?php the_field('slider-1-background-image'); ?>); background-position: <?php the_field('background-position'); ?>"
+                 class="carousel-cell">
+                <div class="container col-lg-10">
+                    <div class="page-header col-lg-6">
+                        <h1><?php the_field('slider-1-title'); ?></h1>
+                        <p><?php the_field('slider-1-description'); ?></p>
+                        <div class="red-button shadow2"><a
+                                    href="<?php the_field('slider-1-button-url'); ?>"><?php the_field('slider-1-button-label'); ?></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-image: url(<?php the_field('slider-2-background-image'); ?>);" class="carousel-cell">
+                <div class="container col-lg-10">
+                    <div class="page-header col-lg-6">
+                        <h1><?php the_field('slider-2-title'); ?></h1>
+                        <p><?php the_field('slider-2-description'); ?></p>
+                        <div class="red-button shadow2"><a
+                                    href="<?php the_field('slider-2-button-url'); ?>"><?php the_field('slider-2-button-label'); ?></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-image: url(<?php the_field('slider-3-background-image'); ?>);" class="carousel-cell">
+                <div class="container col-lg-10">
+                    <div class="page-header col-lg-6">
+                        <h1><?php the_field('slider-3-title'); ?></h1>
+                        <p><?php the_field('slider-3-description'); ?></p>
+                        <div class="red-button shadow2"><a
+                                    href="<?php the_field('slider-3-button-url'); ?>"><?php the_field('slider-3-button-label'); ?></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
